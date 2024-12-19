@@ -2,4 +2,3 @@ streamlit
 pyttsx3
 gtts
 moviepy==1.0.3
-espeak
