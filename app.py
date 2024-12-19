@@ -1,6 +1,8 @@
 import os
 import pyttsx3
 import streamlit as st
+port = int(os.environ.get("PORT", 8501))
+st.set_option("server.port", port)
 from gtts import gTTS
 from moviepy.editor import VideoFileClip, AudioFileClip
 
